@@ -172,7 +172,7 @@ FROM emp_record_table;
 ###    QUERY:
 
                     DELIMITER $$
-                    CREATE PROCEDURE Solve()
+                    CREATE PROCEDURE Emp_Details()
                     BEGIN
                     SELECT * 
                     FROM emp_record_table
@@ -180,7 +180,7 @@ FROM emp_record_table;
                     END
                     $$ DELIMITER ;
 
-                    CALL Solve();
+                    CALL Emp_Details();
                     
 <img width="1152" alt="Screenshot 2023-02-23 at 6 49 50 PM" src="https://user-images.githubusercontent.com/122514232/220918358-7a1f9be8-e0a3-4b4a-88dc-bdde137c55cc.png">
 
