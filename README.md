@@ -161,7 +161,7 @@ FROM emp_record_table;
 
                         SELECT * 
                         FROM emp_record_table
-                        WHERE EXP IN (SELECT EXP FROM emp_record_table WHERE EXP>10);
+                        WHERE EMP_ID IN (SELECT EMP_ID FROM emp_record_table WHERE EXP>10);
                         
 <img width="1152" alt="Screenshot 2023-02-23 at 6 47 45 PM" src="https://user-images.githubusercontent.com/122514232/220917565-2e98762d-ce08-41dd-bdaf-4aa5e6422f52.png">
 
