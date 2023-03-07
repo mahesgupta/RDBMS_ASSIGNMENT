@@ -3,7 +3,7 @@ THIS IS MY RDBMS ASSIGNMENT.
 
 
 
-### QUESTION 1 :- Create a database named employee, then import data_science_team.csv , proj_table.csv  and emp_record_table.csv into the employee database  ###  from the given resources.
+### QUESTION 1 :- Create a database named employee, then import data_science_team.csv , proj_table.csv  and emp_record_table.csv into the employee database from the given resources.
                
      -- Creating database named RDBMS_ASSIGNMENT USING THIS COMMAND        
      CREATE DATABASE RDBMS_ASSIGNMENT;
@@ -19,7 +19,7 @@ THIS IS MY RDBMS ASSIGNMENT.
 ![image](https://user-images.githubusercontent.com/122514232/220903026-764e8d33-ac44-4ef0-b265-07e39587068c.png)
 
 
-### QUESTION 3 :- Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees ### and details of their department. 
+### QUESTION 3 :- Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees and details of their department. 
 
 ###  QUERY:
 SELECT EMP_ID, FIRST_NAME,LAST_NAME,GENDER,DEPT 
@@ -167,7 +167,7 @@ FROM emp_record_table;
 
 
 
-###   QUESTION 13 :- Write a query to create a stored procedure to retrieve the details of the employees whose  experience is more than three years. Take  ###                    data from the employee record table. 
+###   QUESTION 13 :- Write a query to create a stored procedure to retrieve the details of the employees whose  experience is more than three years. Take                       data from the employee record table. 
 
 ###    QUERY:
 
@@ -187,7 +187,7 @@ FROM emp_record_table;
 
        
        
-###      QUESTION 14:- Write a query using stored functions in the project table to check whether the Job profile  assigned to each employee in the data  ###                       science team matches the 
+###      QUESTION 14:- Write a query using stored functions in the project table to check whether the Job profile  assigned to each employee in the data                          science team matches the 
 ###                         organization’s set  standard.
 ###                         The standard being:
 ###                         For an employee with experience less than or equal to 
